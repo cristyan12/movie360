@@ -7,3 +7,6 @@ Route::get('/', function () {
 Route::get('/image', 'ImageController@index');
 
 Route::post('/uploadImage', 'ImageController@uploadImage');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

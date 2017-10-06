@@ -13,9 +13,7 @@ let mix = require('laravel-mix');
 
 mix.scripts([
 	'resources/assets/js/jquery-3.2.1.slim.js',
-	'resources/assets/js/popper.min.js',
 	'resources/assets/js/bootstrap4.js',
-	'resources/assets/js/holder.js',
 	'resources/assets/js/app.js',
 ], 'public/js/app.js');
 
