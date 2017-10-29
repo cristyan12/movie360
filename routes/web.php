@@ -1,7 +1,7 @@
 <?php
 
-Route::get('/', function () {
-    return view('layouts.master');
+Route::get('/', function() {
+	return view('home');
 });
 
 Auth::routes();

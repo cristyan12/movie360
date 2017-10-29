@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -15,9 +15,7 @@
   </head>
   <body>
 
-  	@include('inc.nav')
-
-    <div class="space"></div> 
+    @include('inc.nav')
 
     @include('inc.carousel')
 
@@ -25,11 +23,11 @@
 
     @include('inc.gallery')
 
-  	<div class="mb-5"></div>
+    <div class="mb-5"></div>
 
-  	<footer id="about" class="container footer bg-dark text-white">
-  		<h2 class="display-4">Footer</h2>
-  	</footer>
+    <footer id="about" class="container footer bg-dark text-white">
+      <h2 class="display-4">Footer</h2>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
