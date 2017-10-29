@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->string('type');
             $table->decimal('price', 10, 2);
             $table->string('genre');
+            $table->string('size')->nullabe();
 
             $table->timestamps();
         });
