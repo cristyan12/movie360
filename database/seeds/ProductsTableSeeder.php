@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Faker\Generator as Faker;
 
-use App\User;
+use App\Product;
 
-class UsersTableSeeder extends Seeder
+class ProductsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +13,6 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-    	factory(User::class, 5)->create();
+        factory(Product::class, 100)->create();
     }
 }
